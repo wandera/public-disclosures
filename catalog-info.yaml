@@ -2,7 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: public-disclosures
-  description: Rpository contains required information by MITRE to reveal details of the CVE
+  description: Repository contains required information by MITRE to reveal details of the CVE
+  annotations:
+    backstage.io/techdocs-ref: .
+    sonarqube.org/project-key: "com.jamf.public-disclosures"
   tags:
   - security
   - cve
