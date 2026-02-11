@@ -5,7 +5,7 @@ metadata:
   description: Repository contains required information by MITRE to reveal details of the CVE
   annotations:
     backstage.io/techdocs-ref: .
-    sonarqube.org/project-key: "com.jamf.public-disclosures"
+    sonarqube.org/project-key: "com.wandera.public-disclosures"
   tags:
   - security
   - cve
