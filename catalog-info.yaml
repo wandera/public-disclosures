@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: public-disclosures
+  description: Rpository contains required information by MITRE to reveal details of the CVE
+  tags:
+  - security
+  - cve
+spec:
+  type: website
+  lifecycle: production
+  owner: appsec
+  system: secops-browser-extension
